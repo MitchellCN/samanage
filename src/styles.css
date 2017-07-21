@@ -1,0 +1,111 @@
+*{
+    border: 1px red solid;
+}
+
+nav {
+    background: #0067B2;
+    display: block;
+    padding: 15px;
+
+
+}
+#logo{
+    padding-left: 200px;
+}
+
+nav div{
+    float: right;
+    color: white;
+    font-size: 20px;
+
+}
+
+header{
+    width: 100%;
+    height: 350px;
+    background: url("resources/samanage-header-background.jpg");
+}
+
+/*#option-buttons button:nth-child(1)*/
+/*{*/
+
+    /*background: #009635;*/
+    /*color: white;*/
+    /*border: none;*/
+/*}*/
+
+/*#option-buttons button:nth-child(2)*/
+/*{*/
+
+    /*background: #FBCC1A;*/
+    /*color: #0266B4;*/
+    /*border: none;*/
+/*}*/
+
+h2{
+    font-family: sans-serif;
+    color: white;
+    font-size: 60px;
+    display:block;
+    text-align: center;
+
+
+}
+
+h3{
+
+    color: white;
+    font-size: 35px;
+    font-family: sans-serif;
+    display: block;
+    text-align: center;
+}
+
+h4{
+
+    color:white;
+    font-size: 25px;
+    font-family: "sans-serif";
+    display: block;
+    text-align: center;
+}
+#option-buttons{
+     width: 20%;
+     display: block;
+     margin: 10px auto;
+
+
+ }
+#option-buttons button:nth-child(1)
+{
+
+    background: #009635;
+    color: white;
+    border: none;
+
+}
+
+#option-buttons button:nth-child(2)
+{
+
+    background: #FBCC1A;
+    color: #0266B4;
+    border: none;
+}
+
+#request button:nth-child(3)
+{
+    background: #FBCC1A;
+    color: #0266B4;
+    border: none;
+}
+
+
+
+
+#request{
+    width: 100%;
+    height: 350px;
+    background: url("resources/samanage-accordian-form-bg.png");
+
+}
