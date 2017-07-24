@@ -39,6 +39,11 @@ header{
     border: none;
 }
 
+#itservice{
+    background-color: #EAEBEF;
+    text-align: center;
+}
+
 /*adding color to match button size and color for request a demo*/
 #option-buttons button:nth-child(2)
 {
@@ -81,7 +86,7 @@ h4{
 /*adding grayish banner across the header*/
 #banner{
     background: rgba(0,0,0,0.3) ;
-    margin-top: 75px;
+    margin-top:75px;
 }
 
 /*adding block,margin adn width to align the first two option buttons*/
@@ -99,18 +104,11 @@ h4{
     margin: 10px;
 }
 
-/*making Request a Demo button*/
-/*#option-buttons button:nth-child(1)*/
-/*{*/
 
-    /*background: #009635;*/
-    /*color: white;*/
 
-}
 
 #option-buttons button:nth-child(2)
 {
-
     background: #FBCC1A;
     color: #0266B4;
 
@@ -158,100 +156,23 @@ h10{
 
 }
 
-/*#request p{*/
-    /*font-size: 25px;*/
-/*}*/
-
-#social p{
-    background: #EDEEF2 ;
-    padding: 10px;
 
 
 
-/*#itservice img{*/
-    /*width: 5%;*/
-    /*display:block;*/
-    /*margin:600px auto;*/
 
+
+
+
+
+
+
+
+.facebook, .tweeter,.google, .linkedin, .blog, .email{
+    background: url('resources/samanage-social-share.png');
+    /*background-repeat:no-repeat;*/
 }
-
-
-/*.ticket-mgmt, .email-integ, .incident-Mgmt,.auto-assignment,.problem-change, .sla .service-catalog .mobile-access, .self-service-portal,*/
-/*.google-apps-integration ,.knowledge-base, .dashboard-reports{*/
-    /*!*background-image: url(‘resources/icons.png’);*!*/
-    /*background-repeat: no-repeat;*/
-/*}*/
-/*.ticket-mgmt{*/
-    /*background-position: 0px 0px;*/
-    /*width: 25px;*/
-    /*height: 27px;*/
-/*}*/
-/*.email-integ{*/
-    /*background-position: 0px -219px;*/
-    /*width: 25px;*/
-    /*height: 27px;*/
-/*}*/
-/*.incident-Mgmt{*/
-    /*background-position: -26px -219px;*/
-    /*width: 25px;*/
-    /*height: 27px;*/
-/*}*/
-/*.auto-assignment{*/
-    /*background-position: -26px 0px;*/
-    /*width: 25px;*/
-    /*height: 27px;*/
-/*}*/
-/*.problem-change{*/
-    /*background-position: 0px -42px;*/
-    /*width: 25px;*/
-    /*height: 27px;*/
-/*}*/
-/*.sla{*/
-    /*background-position: -26px -43px;*/
-    /*width: 25px;*/
-    /*height: 27px;*/
-/*}*/
-/*.service-catalog{*/
-    /*background-position: 0px -131px;*/
-    /*width: 25px;*/
-    /*height: 27px;*/
-/*}*/
-/*.mobile-access{*/
-    /*background-position: -26px -86px;*/
-    /*width: 25px;*/
-    /*height: 27px;*/
-/*}*/
-/*.self-service-portal{*/
-    /*background-position: 0px -87px;*/
-    /*width: 25px;*/
-    /*height: 27px;*/
-/*}*/
-/*.google-apps-integration{*/
-    /*background-position: -26px -130px;*/
-    /*width: 25px;*/
-    /*height: 27px;*/
-/*}*/
-/*.knowledge-base{*/
-    /*background-position: 0px -177px;*/
-    /*width: 25px;*/
-    /*height: 27px;*/
-/*}*/
-/*.dashboard-reports{*/
-    /*background-position: -26px -178px;*/
-    /*width: 25px;*/
-    /*height: 27px;*/
-/*}*/
-
-
-
-
-
-/*.facebook, .tweeter,.google, .linkedin, .blog, .email{*/
-    /*background: url('resources/samanage-social-share.png');*/
-    /*!*background-repeat:no-repeat;*!*/
-/*}*/
 .facebook{
-    background-position: 60px 0px;
+    background-position: 2px 0px;
     width: 58px;
     height: 54px;
 
