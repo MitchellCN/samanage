@@ -1,90 +1,45 @@
+/*Adding border to determine spacing*/
 *{
     border: 1px red solid;
-}
 
+}
+/*Adding color and spacing to the Nav tag for samanage */
 nav {
     background: #0067B2;
     display: block;
     padding: 15px;
-
-
 }
+/*adding padding to bring the samanage logo over to the right more*/
 #logo{
     padding-left: 200px;
 }
 
+/*adding additional styles to phone number*/
 nav div{
     float: right;
     color: white;
     font-size: 20px;
-
 }
+
+/*adding the image for the header background and formating the size*/
 
 header{
     width: 100%;
-    height: 350px;
+    height: 500px;
     background: url("resources/samanage-header-background.jpg");
+    background-size: 100%;
 }
 
-/*#option-buttons button:nth-child(1)*/
-/*{*/
-
-    /*background: #009635;*/
-    /*color: white;*/
-    /*border: none;*/
-/*}*/
-
-/*#option-buttons button:nth-child(2)*/
-/*{*/
-
-    /*background: #FBCC1A;*/
-    /*color: #0266B4;*/
-    /*border: none;*/
-/*}*/
-
-h2{
-    font-family: sans-serif;
-    color: white;
-    font-size: 60px;
-    display:block;
-    text-align: center;
-
-
-}
-
-h3{
-
-    color: white;
-    font-size: 35px;
-    font-family: sans-serif;
-    display: block;
-    text-align: center;
-}
-
-h4{
-
-    color:white;
-    font-size: 25px;
-    font-family: "sans-serif";
-    display: block;
-    text-align: center;
-}
-#option-buttons{
-     width: 20%;
-     display: block;
-     margin: 10px auto;
-
-
- }
+/*adding color to match button size and color for start a free trail*/
 #option-buttons button:nth-child(1)
 {
 
     background: #009635;
     color: white;
     border: none;
-
 }
 
+/*adding color to match button size and color for request a demo*/
 #option-buttons button:nth-child(2)
 {
 
@@ -93,19 +48,237 @@ h4{
     border: none;
 }
 
+/*formatting to match the IT SERVICE MANAGEMENT - i was unable to find the correct font family style.*/
+h2{
+
+    font-family: sans-serif;
+    font-family: ‘Open Sans Condensed’, sans-serif;
+    font-weight: 100;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+
+/*formatting to match the Bring visibility*/
+h3{
+
+    color: white;
+    font-weight: 100;
+    font-size: 35px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+/*formatting to match the And Make Work*/
+h4{
+    color:white;
+    font-size: 25px;
+    font-weight: 100;
+    font-family: "sans-serif";
+    text-align: center;
+}
+
+/*adding grayish banner across the header*/
+#banner{
+    background: rgba(0,0,0,0.3) ;
+    margin-top: 75px;
+}
+
+/*adding block,margin adn width to align the first two option buttons*/
+#option-buttons{
+     width: 345px;
+     display: block;
+     margin: 10px auto;
+ }
+
+/*making the clickable buttons larger*/
+#option-buttons button{
+    border: none;
+    width: 150px;
+    height:34px;
+    margin: 10px;
+}
+
+/*making Request a Demo button*/
+/*#option-buttons button:nth-child(1)*/
+/*{*/
+
+    /*background: #009635;*/
+    /*color: white;*/
+
+}
+
+#option-buttons button:nth-child(2)
+{
+
+    background: #FBCC1A;
+    color: #0266B4;
+
+}
+/*adding the styles to the third button*/
 #request button:nth-child(3)
 {
     background: #FBCC1A;
     color: #0266B4;
+    width: 200px;
+    height: 25px;
+    margin: 3%;
     border: none;
 }
 
-
-
-
+/*Adding accordian image and styling image and lettering below*/
 #request{
     width: 100%;
-    height: 350px;
+    text-align: center;
+    height: 250px;
     background: url("resources/samanage-accordian-form-bg.png");
+    color: white;
+    font-size: 55px;
+}
+
+h8{
+    font-size: 55px;
+    text-align: center;
+    display: block;
+    font-weight: 200;
+    padding: 2%;
+}
+
+h9{
+    font-size: 25px;
+    text-align: center;
+    display: block
 
 }
+
+h10{
+
+    font-size: 15px;
+    margin: 36%;
+
+}
+
+/*#request p{*/
+    /*font-size: 25px;*/
+/*}*/
+
+#social p{
+    background: #EDEEF2 ;
+    padding: 10px;
+
+
+
+/*#itservice img{*/
+    /*width: 5%;*/
+    /*display:block;*/
+    /*margin:600px auto;*/
+
+}
+
+
+/*.ticket-mgmt, .email-integ, .incident-Mgmt,.auto-assignment,.problem-change, .sla .service-catalog .mobile-access, .self-service-portal,*/
+/*.google-apps-integration ,.knowledge-base, .dashboard-reports{*/
+    /*!*background-image: url(‘resources/icons.png’);*!*/
+    /*background-repeat: no-repeat;*/
+/*}*/
+/*.ticket-mgmt{*/
+    /*background-position: 0px 0px;*/
+    /*width: 25px;*/
+    /*height: 27px;*/
+/*}*/
+/*.email-integ{*/
+    /*background-position: 0px -219px;*/
+    /*width: 25px;*/
+    /*height: 27px;*/
+/*}*/
+/*.incident-Mgmt{*/
+    /*background-position: -26px -219px;*/
+    /*width: 25px;*/
+    /*height: 27px;*/
+/*}*/
+/*.auto-assignment{*/
+    /*background-position: -26px 0px;*/
+    /*width: 25px;*/
+    /*height: 27px;*/
+/*}*/
+/*.problem-change{*/
+    /*background-position: 0px -42px;*/
+    /*width: 25px;*/
+    /*height: 27px;*/
+/*}*/
+/*.sla{*/
+    /*background-position: -26px -43px;*/
+    /*width: 25px;*/
+    /*height: 27px;*/
+/*}*/
+/*.service-catalog{*/
+    /*background-position: 0px -131px;*/
+    /*width: 25px;*/
+    /*height: 27px;*/
+/*}*/
+/*.mobile-access{*/
+    /*background-position: -26px -86px;*/
+    /*width: 25px;*/
+    /*height: 27px;*/
+/*}*/
+/*.self-service-portal{*/
+    /*background-position: 0px -87px;*/
+    /*width: 25px;*/
+    /*height: 27px;*/
+/*}*/
+/*.google-apps-integration{*/
+    /*background-position: -26px -130px;*/
+    /*width: 25px;*/
+    /*height: 27px;*/
+/*}*/
+/*.knowledge-base{*/
+    /*background-position: 0px -177px;*/
+    /*width: 25px;*/
+    /*height: 27px;*/
+/*}*/
+/*.dashboard-reports{*/
+    /*background-position: -26px -178px;*/
+    /*width: 25px;*/
+    /*height: 27px;*/
+/*}*/
+
+
+
+
+
+/*.facebook, .tweeter,.google, .linkedin, .blog, .email{*/
+    /*background: url('resources/samanage-social-share.png');*/
+    /*!*background-repeat:no-repeat;*!*/
+/*}*/
+.facebook{
+    background-position: 60px 0px;
+    width: 58px;
+    height: 54px;
+
+}
+.tweeter{
+    background-position: -54px;
+    width: 58px;
+    height: 54px;
+}
+.google{
+    background-position: -110px 0px;
+    width: 58px;
+    height: 54px;
+}
+.linkedin{
+    background-position: -166px 0px;
+    width: 58px;
+    height: 54px;
+}
+.blog{
+    background-position: -222px 0px;
+    width: 58px;
+    height: 54px;
+}
+.email{
+    background-position: -278px 0px;
+    width: 56px;
+    height: 54px;
+}
+

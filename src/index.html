@@ -1,25 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
     <meta charset="UTF-8">
     <title>Title</title>
+    <!--linking stylesheet "styles" to html "index" page-->
     <link rel="stylesheet" type="text/css" href="styles.css"/>
 </head>
+
+<!--inserting Samanage logo (given and phone number (writing in phone number)-->
 
 <nav>
     <img id="logo" src="resources/samanage-logo.png"/>
     <div><a> +1 888-726-3135</a></div>
 
 </nav>
+
+<!--creating div tag called "banner" and  language for description of company for the header-->
 <header>
-    <div>
+    <div id="banner">
         <h2> IT SERVICE MANAGEMENT</h2>
         <h3>BRING VISIBILITY TO EVERYTHING YOU DO</h3>
         <h4> AND MAKE WORK LIFE BETTER.</h4>
     </div>
+
+    <!--adding clickable buttons called "option-buttons"-->
 <div id="option-buttons">
-    <!--<img src="resources/samanage-header-background.jpg"/>-->
-    <!--<img src="resources/samanage_customer_logos.png"/>-->
+
 
     <button>START A FREE TRIAL</button>
     <button>REQUEST A DEMO</button>
@@ -27,9 +34,14 @@
 </div>
 </header>
 
+<!--creating div id called "itservice" to add in the Samanage customers image-->
+
 <div id ="itservice">
     <img src="resources/samanage_customer_logos.png"/>
 </div>
+
+<!--creating div id called "ipad" to add the provided ipad images and bullet icons.
+Also adding description of the bullets-->
 
 <div id = "ipad">
     <img src="resources/samanage-ipad.png"/>
@@ -37,30 +49,54 @@
     <h5>Closer Look at the Features</h5>
     <p>The Samanage IT Help Desk has amazing features that makes us stand out from the others.
     We strive to give our customer nothing but the best. Here are a few of them.</p>
-</div>
+    <ul>
+        <li> Ticket Management</li>
+        <li> Incident Management</li>
+        <li> Problem and Change</li>
+        <li> Service Catalog</li>
+        <li> Self Service Portal</li>
+        <li> Knowledge Base</li>
+    </ul>
+    <ul>
+        <li> Email Integration</li>
+        <li> Auto Assignment</li>
+        <li> SLA</li>
+        <li> Mobile access</li>
+        <li> Google Maps integration</li>
+        <li> Dashboard and Reports</li>
+    </ul>
 
+
+
+</div>
+<!-- adding a div id tag called request.
+This is allowing me to add the accordian image with a clickable button to request a demo-->
 <div id = "request">
     <h8>Request a Custom Quote Today!</h8>
-    <p>Looking for IT Asset Management to make your life better?</p>
+    <h9>Looking for IT Asset Management to make your life better?</h9>
     <button>REQUEST A DEMO</button>
-    <!--<img src="resources/samanage-accordian-form-bg.png"/>-->
-</div>
-
-<div id = "social">
-    <img src="resources/samanage-social-share.png"/>
 
 </div>
 
-<div id = "copyright">
-    <footer> &#X24b8; Samanage Ltd. All rights reserved.|Terms|Privacy </footer>
-
-</div>
-
-    <ul class="navigation">
-        <!--<h1><a href="index.html">Samanage</a></h1>-->
+<!--adding a div id "social" for the social sites-->
+<div id="social">
+    <ul>
+        <li class="facebook"></li>
+        <li class="tweeter"></li>
+        <li class="google"></li>
+        <li class="linkedin"></li>
+        <li class="blog"></li>
+        <li class="email"></li>
     </ul>
-</nav>
 
+</div>
+<!--adding the copyright for samanage at the bottom of the page. I had to find the code for the copyright symbol-->
+<div id= "copyright">
+    <footer>
+    <h10> &#x24B8; Samanage Ltd. All rights reserved.| Terms | Privacy</h10>
+    </footer>
+</div>
 
 </body>
 </html>
+
